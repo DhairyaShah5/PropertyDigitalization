@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dd2da9933a91db154c2b81af9b2b3805 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_dd2da9933a91db154c2b81af9b2b3805" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_dd2da9933a91db154c2b81af9b2b3805 = L.map(
+                "map_dd2da9933a91db154c2b81af9b2b3805",
+                {
+                    center: [22.4707, 70.0577],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4d88e6d87b2fc972717c74fb200daba7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_4d88e6d87b2fc972717c74fb200daba7.addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var marker_8cdaac5e11f1bc88ee8db07090527ab7 = L.marker(
+                [22.4707019, 70.05773],
+                {}
+            ).addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var icon_ec6ea09b04fda04657e2c0da0bd6112e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8cdaac5e11f1bc88ee8db07090527ab7.setIcon(icon_ec6ea09b04fda04657e2c0da0bd6112e);
+        
+    
+        var popup_65c055a546052dacfa691dbd439e4970 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_413c7151ab570c6143e707fefd4b98c0 = $(`<div id="html_413c7151ab570c6143e707fefd4b98c0" style="width: 100.0%; height: 100.0%;">Name: Jamnagar<br>Address: Jamnagar</div>`)[0];
+                popup_65c055a546052dacfa691dbd439e4970.setContent(html_413c7151ab570c6143e707fefd4b98c0);
+            
+        
+
+        marker_8cdaac5e11f1bc88ee8db07090527ab7.bindPopup(popup_65c055a546052dacfa691dbd439e4970)
+        ;
+
+        
+    
+    
+            var marker_57e779f3178f21c48ac617c1533d9f18 = L.marker(
+                [22.4664238, 70.0723306],
+                {}
+            ).addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var icon_36b81346c299f17013627a22fdd96f54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_57e779f3178f21c48ac617c1533d9f18.setIcon(icon_36b81346c299f17013627a22fdd96f54);
+        
+    
+        var popup_474f52789ee3e2e5eade78a829cf1228 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb038218f79871aaa33c0d97df7ecebd = $(`<div id="html_cb038218f79871aaa33c0d97df7ecebd" style="width: 100.0%; height: 100.0%;">Name: The Professional Couriers<br>Address: 23-24, Gurunanak Market, Pancheshwer Tower Road, Jamnagar</div>`)[0];
+                popup_474f52789ee3e2e5eade78a829cf1228.setContent(html_cb038218f79871aaa33c0d97df7ecebd);
+            
+        
+
+        marker_57e779f3178f21c48ac617c1533d9f18.bindPopup(popup_474f52789ee3e2e5eade78a829cf1228)
+        ;
+
+        
+    
+    
+            var marker_c35107f5b3f9dcfdf78c937ad22618bf = L.marker(
+                [22.4512175, 70.0645275],
+                {}
+            ).addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var icon_408d7eca456aa9cfff43823a7d8f287e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c35107f5b3f9dcfdf78c937ad22618bf.setIcon(icon_408d7eca456aa9cfff43823a7d8f287e);
+        
+    
+        var popup_2a15bb2069e695bc60f2ee1403164b08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17a4bc0dcc97fde36996f8eef0dd5828 = $(`<div id="html_17a4bc0dcc97fde36996f8eef0dd5828" style="width: 100.0%; height: 100.0%;">Name: Ajit Enterprise<br>Address: Plot No. 4710, GIDC Phase 3, Dared, Jamnagar</div>`)[0];
+                popup_2a15bb2069e695bc60f2ee1403164b08.setContent(html_17a4bc0dcc97fde36996f8eef0dd5828);
+            
+        
+
+        marker_c35107f5b3f9dcfdf78c937ad22618bf.bindPopup(popup_2a15bb2069e695bc60f2ee1403164b08)
+        ;
+
+        
+    
+    
+            var marker_6c7d1e93f835baf71b6e9cb91c531617 = L.marker(
+                [22.462265, 70.0663151],
+                {}
+            ).addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var icon_2538b6103fb1a54b0dbbff2e72aa7541 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6c7d1e93f835baf71b6e9cb91c531617.setIcon(icon_2538b6103fb1a54b0dbbff2e72aa7541);
+        
+    
+        var popup_6ac36722e5556d9119f4174463e34827 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01875dc353dbbb3fced63a0c3976f2db = $(`<div id="html_01875dc353dbbb3fced63a0c3976f2db" style="width: 100.0%; height: 100.0%;">Name: Meridian Industries<br>Address: 62, Street Number 45, Shankar Tekri, Jamnagar</div>`)[0];
+                popup_6ac36722e5556d9119f4174463e34827.setContent(html_01875dc353dbbb3fced63a0c3976f2db);
+            
+        
+
+        marker_6c7d1e93f835baf71b6e9cb91c531617.bindPopup(popup_6ac36722e5556d9119f4174463e34827)
+        ;
+
+        
+    
+    
+            var marker_9b99577b93ade9e7aa468fb771af0f66 = L.marker(
+                [22.48116, 70.0606073],
+                {}
+            ).addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var icon_07198094f77c795d9d2a7b6d65f6f0b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9b99577b93ade9e7aa468fb771af0f66.setIcon(icon_07198094f77c795d9d2a7b6d65f6f0b7);
+        
+    
+        var popup_a9809d152c3a1a5e98368ccd9b5ce687 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ace96f8c9178ccb3168073b24af679d0 = $(`<div id="html_ace96f8c9178ccb3168073b24af679d0" style="width: 100.0%; height: 100.0%;">Name: Hotel Aram, Jamnagar<br>Address: Nand Niwas, Pandit Nehru Marg, Jamnagar</div>`)[0];
+                popup_a9809d152c3a1a5e98368ccd9b5ce687.setContent(html_ace96f8c9178ccb3168073b24af679d0);
+            
+        
+
+        marker_9b99577b93ade9e7aa468fb771af0f66.bindPopup(popup_a9809d152c3a1a5e98368ccd9b5ce687)
+        ;
+
+        
+    
+    
+            var marker_3bef8876bcaeeab7b84872f3346baae9 = L.marker(
+                [22.4643712, 70.0610138],
+                {}
+            ).addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var icon_5b156319256b5383de220e972dc255df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3bef8876bcaeeab7b84872f3346baae9.setIcon(icon_5b156319256b5383de220e972dc255df);
+        
+    
+        var popup_795325e1e9f8987709dbbd1a531b5c6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6cd858ad8d9035a4dbfc4edf299ec2f = $(`<div id="html_e6cd858ad8d9035a4dbfc4edf299ec2f" style="width: 100.0%; height: 100.0%;">Name: OYO 24996 Hotel Jamnagar Residency<br>Address: Sarovar Complex, Near Jolly Bunglow, Summair Club Road, Jamnagar</div>`)[0];
+                popup_795325e1e9f8987709dbbd1a531b5c6e.setContent(html_e6cd858ad8d9035a4dbfc4edf299ec2f);
+            
+        
+
+        marker_3bef8876bcaeeab7b84872f3346baae9.bindPopup(popup_795325e1e9f8987709dbbd1a531b5c6e)
+        ;
+
+        
+    
+    
+            var marker_d1666ed89589ac22cf5ed598f808ccbb = L.marker(
+                [22.4693799, 70.04153749999999],
+                {}
+            ).addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var icon_3d149c80361f7a239e8a39e805ccea04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d1666ed89589ac22cf5ed598f808ccbb.setIcon(icon_3d149c80361f7a239e8a39e805ccea04);
+        
+    
+        var popup_3de50039c33d61952e1c3fb38a4292cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71a93e5e8063b6739ea3adab9130a3c7 = $(`<div id="html_71a93e5e8063b6739ea3adab9130a3c7" style="width: 100.0%; height: 100.0%;">Name: The Vraj HOTEL<br>Address: Ne.Digjam Circle, Airport Road, Jamnagar</div>`)[0];
+                popup_3de50039c33d61952e1c3fb38a4292cc.setContent(html_71a93e5e8063b6739ea3adab9130a3c7);
+            
+        
+
+        marker_d1666ed89589ac22cf5ed598f808ccbb.bindPopup(popup_3de50039c33d61952e1c3fb38a4292cc)
+        ;
+
+        
+    
+    
+            var marker_512153eac6bcb68d1e0ff61d82821097 = L.marker(
+                [22.4665179, 70.0771092],
+                {}
+            ).addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var icon_e11874c02093234d8c8c54c552209cac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_512153eac6bcb68d1e0ff61d82821097.setIcon(icon_e11874c02093234d8c8c54c552209cac);
+        
+    
+        var popup_4b875010722ef9b14ef2e77bb2b1b9c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_434d7ef44232ddeac6028797bcda0859 = $(`<div id="html_434d7ef44232ddeac6028797bcda0859" style="width: 100.0%; height: 100.0%;">Name: I T C Ltd<br>Address: 110, Venus Apartment, Grain Market, opposite Cricket Bunglow, Grain Market, Jamnagar</div>`)[0];
+                popup_4b875010722ef9b14ef2e77bb2b1b9c6.setContent(html_434d7ef44232ddeac6028797bcda0859);
+            
+        
+
+        marker_512153eac6bcb68d1e0ff61d82821097.bindPopup(popup_4b875010722ef9b14ef2e77bb2b1b9c6)
+        ;
+
+        
+    
+    
+            var marker_59788bf9671cfd6def02a692c2ba605a = L.marker(
+                [22.4666667, 70.0666667],
+                {}
+            ).addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var icon_7d221b34220681992c0d7336535ad112 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_59788bf9671cfd6def02a692c2ba605a.setIcon(icon_7d221b34220681992c0d7336535ad112);
+        
+    
+        var popup_74a5fb2b0b54771e86381d0f3db70860 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a945bfd2d9b7dc3f71ebfabc8ab1925b = $(`<div id="html_a945bfd2d9b7dc3f71ebfabc8ab1925b" style="width: 100.0%; height: 100.0%;">Name: K M Industries<br>Address: R T 85/5, G I D C-1, Shankar Tekri, Udyog Nagar, Udyog Nagar, Jamnagar</div>`)[0];
+                popup_74a5fb2b0b54771e86381d0f3db70860.setContent(html_a945bfd2d9b7dc3f71ebfabc8ab1925b);
+            
+        
+
+        marker_59788bf9671cfd6def02a692c2ba605a.bindPopup(popup_74a5fb2b0b54771e86381d0f3db70860)
+        ;
+
+        
+    
+    
+            var marker_20d0942e24f868685f6a62fc145f4c7d = L.marker(
+                [22.4706235, 70.0711884],
+                {}
+            ).addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var icon_d6526d96587c99db80e45df35362dff0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_20d0942e24f868685f6a62fc145f4c7d.setIcon(icon_d6526d96587c99db80e45df35362dff0);
+        
+    
+        var popup_7b85976ee8a6249741cb5b464f267821 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac14656681684b35409702616bb91d15 = $(`<div id="html_ac14656681684b35409702616bb91d15" style="width: 100.0%; height: 100.0%;">Name: Hotel President, Jamnagar<br>Address: Teen Batti Road, Jamnagar</div>`)[0];
+                popup_7b85976ee8a6249741cb5b464f267821.setContent(html_ac14656681684b35409702616bb91d15);
+            
+        
+
+        marker_20d0942e24f868685f6a62fc145f4c7d.bindPopup(popup_7b85976ee8a6249741cb5b464f267821)
+        ;
+
+        
+    
+    
+            var marker_d7fba53c768e1d28b4b257d99602690e = L.marker(
+                [22.4796892, 70.0552343],
+                {}
+            ).addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var icon_a21730e6f6d825e60c76e45cbe0dee17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d7fba53c768e1d28b4b257d99602690e.setIcon(icon_a21730e6f6d825e60c76e45cbe0dee17);
+        
+    
+        var popup_53aa41a0b4bbfe183a509e68c653a639 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51441ca8f52bf2a695f0891108a1e3b9 = $(`<div id="html_51441ca8f52bf2a695f0891108a1e3b9" style="width: 100.0%; height: 100.0%;">Name: Axis Bank Branch<br>Address: Ground floor, Jaidev Arcade, near Joggers Park Road, Main Road, Park Colony, Jamnagar</div>`)[0];
+                popup_53aa41a0b4bbfe183a509e68c653a639.setContent(html_51441ca8f52bf2a695f0891108a1e3b9);
+            
+        
+
+        marker_d7fba53c768e1d28b4b257d99602690e.bindPopup(popup_53aa41a0b4bbfe183a509e68c653a639)
+        ;
+
+        
+    
+    
+            var marker_e9fca7723b8f6e6c4660e4866ba455e2 = L.marker(
+                [22.46196789999999, 70.03691309999999],
+                {}
+            ).addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var icon_9d91f3a92ef215ea11bac12acde33653 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e9fca7723b8f6e6c4660e4866ba455e2.setIcon(icon_9d91f3a92ef215ea11bac12acde33653);
+        
+    
+        var popup_aaf7a711a76e4097fa1207b138f89c70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c136a69588617ae131d08398a412387b = $(`<div id="html_c136a69588617ae131d08398a412387b" style="width: 100.0%; height: 100.0%;">Name: Mehul Cinemax<br>Address: near Hotel Vishal -International, 15, Street Number 4, Shivam Park, Ajanta Society, Jamnagar</div>`)[0];
+                popup_aaf7a711a76e4097fa1207b138f89c70.setContent(html_c136a69588617ae131d08398a412387b);
+            
+        
+
+        marker_e9fca7723b8f6e6c4660e4866ba455e2.bindPopup(popup_aaf7a711a76e4097fa1207b138f89c70)
+        ;
+
+        
+    
+    
+            var marker_d95f03769867466a214df2db04431ec9 = L.marker(
+                [22.4819302, 70.05754999999999],
+                {}
+            ).addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var icon_34fa9aac480d5cd985d62d45822f7c63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d95f03769867466a214df2db04431ec9.setIcon(icon_34fa9aac480d5cd985d62d45822f7c63);
+        
+    
+        var popup_ed3e1fc625fc28bccbc5bc754de9a30c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d84bac6afd63d4d8936f0926c05084aa = $(`<div id="html_d84bac6afd63d4d8936f0926c05084aa" style="width: 100.0%; height: 100.0%;">Name: Swarn Shikha Jewellers<br>Address: 1/2/3, Labh Appartment, Opposite St Anns School, Swarn Shikha Road, Jamnagar</div>`)[0];
+                popup_ed3e1fc625fc28bccbc5bc754de9a30c.setContent(html_d84bac6afd63d4d8936f0926c05084aa);
+            
+        
+
+        marker_d95f03769867466a214df2db04431ec9.bindPopup(popup_ed3e1fc625fc28bccbc5bc754de9a30c)
+        ;
+
+        
+    
+    
+            var marker_41113fb16d27bd0b72604f0e10b4fac5 = L.marker(
+                [22.4663743, 70.0597411],
+                {}
+            ).addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var icon_c0922c7d4a1d71c0fc990b38ce662641 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_41113fb16d27bd0b72604f0e10b4fac5.setIcon(icon_c0922c7d4a1d71c0fc990b38ce662641);
+        
+    
+        var popup_5125ec9d2bc3fe9a87fa9a56abb8b817 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70564801ced9fffdec31583b12cf522a = $(`<div id="html_70564801ced9fffdec31583b12cf522a" style="width: 100.0%; height: 100.0%;">Name: Vikalp Hospital<br>Address: Near Digjam Showroom, Oshwal Colony, Summair Club Road, Jamnagar</div>`)[0];
+                popup_5125ec9d2bc3fe9a87fa9a56abb8b817.setContent(html_70564801ced9fffdec31583b12cf522a);
+            
+        
+
+        marker_41113fb16d27bd0b72604f0e10b4fac5.bindPopup(popup_5125ec9d2bc3fe9a87fa9a56abb8b817)
+        ;
+
+        
+    
+    
+            var marker_69ab5d9c59c72cd8ddee1e55df552e7e = L.marker(
+                [22.457143, 70.0548012],
+                {}
+            ).addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var icon_f52172318816e3d833ca6b5a371b2544 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_69ab5d9c59c72cd8ddee1e55df552e7e.setIcon(icon_f52172318816e3d833ca6b5a371b2544);
+        
+    
+        var popup_083409ee9c01525dc7d23620efecda92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77e15f0fd60aae137aa31e0f19f52b91 = $(`<div id="html_77e15f0fd60aae137aa31e0f19f52b91" style="width: 100.0%; height: 100.0%;">Name: Vraj Enterprise<br>Address: Plot No 06, Vinayak Cold Storage, Haribhai vadi, Shanker Tekri, Udyog Nagar, Nand Dham Society, Jamnagar</div>`)[0];
+                popup_083409ee9c01525dc7d23620efecda92.setContent(html_77e15f0fd60aae137aa31e0f19f52b91);
+            
+        
+
+        marker_69ab5d9c59c72cd8ddee1e55df552e7e.bindPopup(popup_083409ee9c01525dc7d23620efecda92)
+        ;
+
+        
+    
+    
+            var marker_b864b25cc0d62d87a8157574bb18a0d0 = L.marker(
+                [22.46860599999999, 70.0737257],
+                {}
+            ).addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var icon_0aa27838a5347b5f3740c4e10c57ba72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b864b25cc0d62d87a8157574bb18a0d0.setIcon(icon_0aa27838a5347b5f3740c4e10c57ba72);
+        
+    
+        var popup_3969325d4483193ffec6a4298ab26852 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5e4583590c7820c26f56073ef591b5e = $(`<div id="html_e5e4583590c7820c26f56073ef591b5e" style="width: 100.0%; height: 100.0%;">Name: Sigma Technical Institute<br>Address: F39F+CFX, Panchasar, Pancheshwar Tower, Jamnagar</div>`)[0];
+                popup_3969325d4483193ffec6a4298ab26852.setContent(html_e5e4583590c7820c26f56073ef591b5e);
+            
+        
+
+        marker_b864b25cc0d62d87a8157574bb18a0d0.bindPopup(popup_3969325d4483193ffec6a4298ab26852)
+        ;
+
+        
+    
+    
+            var marker_791e1922aa6c2aa58f4c0f3f8b68081f = L.marker(
+                [22.47486899999999, 70.067753],
+                {}
+            ).addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var icon_3b28f84b29e25de51329837a44b7361d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_791e1922aa6c2aa58f4c0f3f8b68081f.setIcon(icon_3b28f84b29e25de51329837a44b7361d);
+        
+    
+        var popup_6232fbb35d0d1ccad223d346f587ca65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_562ca256376e735e64d9978edad63eec = $(`<div id="html_562ca256376e735e64d9978edad63eec" style="width: 100.0%; height: 100.0%;">Name: Bliss Tours And Travels<br>Address: M-2,Modern Market, 1st Floor, Near amber cinema, Pandit Nehru Marg, Jamnagar</div>`)[0];
+                popup_6232fbb35d0d1ccad223d346f587ca65.setContent(html_562ca256376e735e64d9978edad63eec);
+            
+        
+
+        marker_791e1922aa6c2aa58f4c0f3f8b68081f.bindPopup(popup_6232fbb35d0d1ccad223d346f587ca65)
+        ;
+
+        
+    
+    
+            var marker_27c2f9fe0148a11f4db730aacf135dd2 = L.marker(
+                [22.4647259, 70.0695191],
+                {}
+            ).addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var icon_4a67dc34baabd7e630efed883bf3d4da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_27c2f9fe0148a11f4db730aacf135dd2.setIcon(icon_4a67dc34baabd7e630efed883bf3d4da);
+        
+    
+        var popup_dc973386a2c15235fdbc6f6fa9a3378a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_671339462cb91cfdedbe92f03c1d4f61 = $(`<div id="html_671339462cb91cfdedbe92f03c1d4f61" style="width: 100.0%; height: 100.0%;">Name: Lakhota Palace and Museum<br>Address: F379+VRR, Government Colony, Jamnagar</div>`)[0];
+                popup_dc973386a2c15235fdbc6f6fa9a3378a.setContent(html_671339462cb91cfdedbe92f03c1d4f61);
+            
+        
+
+        marker_27c2f9fe0148a11f4db730aacf135dd2.bindPopup(popup_dc973386a2c15235fdbc6f6fa9a3378a)
+        ;
+
+        
+    
+    
+            var marker_eeba122cdbd240c7a1d074b39a5728e8 = L.marker(
+                [22.4644389, 70.06099270000001],
+                {}
+            ).addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var icon_707d2a989a1dd1aa38bffa8074c1875d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eeba122cdbd240c7a1d074b39a5728e8.setIcon(icon_707d2a989a1dd1aa38bffa8074c1875d);
+        
+    
+        var popup_605cc1276e588ddce457d5d9eaa7859c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f87e97ac03b7f94ecdd5cbe5f3017ed = $(`<div id="html_2f87e97ac03b7f94ecdd5cbe5f3017ed" style="width: 100.0%; height: 100.0%;">Name: HOTEL SHIV PALACE<br>Address: near JOLLY BANGLOW, S T ROAD, Jamnagar</div>`)[0];
+                popup_605cc1276e588ddce457d5d9eaa7859c.setContent(html_2f87e97ac03b7f94ecdd5cbe5f3017ed);
+            
+        
+
+        marker_eeba122cdbd240c7a1d074b39a5728e8.bindPopup(popup_605cc1276e588ddce457d5d9eaa7859c)
+        ;
+
+        
+    
+    
+            var marker_cce15dd3ab5ae276ea6306d011e43d9d = L.marker(
+                [22.4666091, 70.066689],
+                {}
+            ).addTo(map_dd2da9933a91db154c2b81af9b2b3805);
+        
+    
+            var icon_d67308467d722423c4f31b2641e86a14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cce15dd3ab5ae276ea6306d011e43d9d.setIcon(icon_d67308467d722423c4f31b2641e86a14);
+        
+    
+        var popup_60f193ba0eed88d29f67b0403ff6b2ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5db3bbded37f2fda4ece71830ec4bfcc = $(`<div id="html_5db3bbded37f2fda4ece71830ec4bfcc" style="width: 100.0%; height: 100.0%;">Name: Government Colony<br>Address: Government Colony</div>`)[0];
+                popup_60f193ba0eed88d29f67b0403ff6b2ed.setContent(html_5db3bbded37f2fda4ece71830ec4bfcc);
+            
+        
+
+        marker_cce15dd3ab5ae276ea6306d011e43d9d.bindPopup(popup_60f193ba0eed88d29f67b0403ff6b2ed)
+        ;
+
+        
+    
+</script>
+</html>
